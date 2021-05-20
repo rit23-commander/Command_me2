@@ -41,7 +41,6 @@ private String enter_text ;
 
         shell.addKeyListener(new KeyListener() {
 
-            int co  ;
 
             @Override
             public void keyTyped(KeyEvent keyEvent) {
@@ -60,7 +59,7 @@ private String enter_text ;
 
             @Override
             public void keyReleased(KeyEvent keyEvent) {
-
+                     // No use now
             }
 
         });
